@@ -1,0 +1,122 @@
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.date-picker {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  color: #1f2844;
+}
+
+#date {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 10px;
+}	
+
+.apod-info {
+  background-color: #ffffff6b;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.apod-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.apod-explanation {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.apod-image {
+  width: 95%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  height: auto;
+}
+
+.apod-image:hover {
+  transform: scale(1.01);
+}
+
+.img-gap {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  float: right;
+}
+
+.nasa-logo {
+  width: 200px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.footer .name-author {
+  color: #0004ff;
+  font-size: 16px;
+}
